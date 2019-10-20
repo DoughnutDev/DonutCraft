@@ -1,6 +1,8 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.removeShaped(<thermalfoundation:material:135>, [[<mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>],[<mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>], [<mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>]]);
+recipes.removeShaped(<ic2:ingot:8> * 2, [[<mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>],[<mysticalagriculture:uranium_essence>, null, <mysticalagriculture:uranium_essence>], [<mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>]]);
 recipes.remove(<torcherino:blocktorcherino>);
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.remove(<tconstruct:soil>);

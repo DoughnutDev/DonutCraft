@@ -1,6 +1,10 @@
+//Changing Tier Seeds
+recipes.remove(<mysticalagriculture:crafting:16>);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:16>, [<mysticalagriculture:infusion_crystal>, <minecraft:wheat_seeds>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>], 5200);
+
 
 //Remove Recipes
-recipes.removeByRecipeName("mysticalagriculture:ingotenderium);
+recipes.removeByRecipeName("mysticalagriculture:ingotenderium");
 recipes.removeByRecipeName("mysticalagriculture:ingotconstantan");
 recipes.removeByRecipeName("mysticalagriculture:ingotbrass");
 recipes.removeByRecipeName("mysticalagriculture:ingotsteel");
@@ -88,13 +92,17 @@ mods.ic2.Compressor.addRecipe(<botania:manaresource:4> * 4, <mysticalagriculture
 mods.ic2.Compressor.addRecipe(<thaumcraft:ingot:0>* 4, <mysticalagriculture:thaumium_essence> * 8);
 mods.ic2.Compressor.addRecipe(<thaumcraft:ingot:1> * 4, <mysticalagriculture:void_metal_essence> * 8);
 mods.ic2.Compressor.addRecipe(<plustic:alumiteingot> * 4, <mysticalagriculture:alumite_essence> * 8);
-mods.ic2.Compressor.addRecipe(<twilightforest:steelleaf_ingot>* 4, <mysticalagriculture:steeleaf_essence> * 8);
-mods.ic2.Compressor.addRecipe(<twilightforest:ironwood_ingot>* 4, <mysticalagriculture:ironwood_essence> * 8);
+mods.ic2.Compressor.addRecipe(<twilightforest:steeleaf_ingot> * 4, <mysticalagriculture:steeleaf_essence> * 8);
+mods.ic2.Compressor.addRecipe(<twilightforest:ironwood_ingot> * 4, <mysticalagriculture:ironwood_essence> * 8);
 mods.ic2.Compressor.addRecipe(<twilightforest:knightmetal_ingot> * 4, <mysticalagriculture:knightmetal_essence> * 8);
 mods.ic2.Compressor.addRecipe(<twilightforest:fiery_ingot> * 4, <mysticalagriculture:fiery_ingot_essence> * 8);
-mods.ic2.Compressor.addRecipe(<appliedenergistics2:material:0>* 4, <mysticalagriculture:certus_quartz_essence> * 8);
+mods.ic2.Compressor.addRecipe(<appliedenergistics2:material:0> * 4, <mysticalagriculture:certus_quartz_essence> * 8);
 mods.ic2.Compressor.addRecipe(<appliedenergistics2:material:7> * 4, <mysticalagriculture:fluix_essence> * 8);
 
+mods.ic2.Compressor.addRecipe(<mysticalagriculture:boron_essence> * 4, <nuclearcraft:ingot:5> * 8);
+mods.ic2.Compressor.addRecipe(<mysticalagriculture:thorium_essence> * 4, <nuclearcraft:ingot:3> * 8);
+mods.ic2.Compressor.addRecipe(<mysticalagriculture:lithium_essence> * 4, <nuclearcraft:ingot:6> * 8);
+mods.ic2.Compressor.addRecipe(<mysticalagriculture:magnesium_essence> * 4, <nuclearcraft:ingot:7> * 8);
 mods.ic2.Compressor.addRecipe(<thermalfoundation:ore:7>, <mysticalagriculture:iridium_ore_essence> * 12);
 mods.ic2.Compressor.addRecipe(<ic2:nuclear:2>, <mysticalagriculture:uranium_238_essence> * 9);
 mods.ic2.Compressor.addRecipe(<ic2:ingot:8> * 2, <mysticalagriculture:uranium_essence> * 9);
@@ -104,6 +112,7 @@ mods.ic2.Compressor.addRecipe(<thermalfoundation:material:166> * 2, <mysticalagr
 mods.ic2.Compressor.addRecipe(<thermalfoundation:material:167> * 2, <mysticalagriculture:enderium_essence> * 9);
 mods.ic2.Compressor.addRecipe(<redstonearsenal:material:32> * 2, <mysticalagriculture:fluxed_electrum_essence> * 9);
 mods.ic2.Compressor.addRecipe(<bigreactors:ingotyellorium> * 2, <mysticalagriculture:yellorium_essence> * 9);
+mods.ic2.Compressor.addRecipe(<thermalfoundation:material:165> * 2, <mysticalagriculture:signalum_essence> * 9);
 
 mods.ic2.Compressor.addRecipe(<draconicevolution:draconium_ingot> * 1, <mysticalagriculture:draconium_essence> * 28);
 
@@ -141,13 +150,17 @@ mods.thermalexpansion.Compactor.addPressRecipe(<botania:manaresource:4> * 4, <my
 mods.thermalexpansion.Compactor.addPressRecipe(<thaumcraft:ingot:0>* 4, <mysticalagriculture:thaumium_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<thaumcraft:ingot:1> * 4, <mysticalagriculture:void_metal_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<plustic:alumiteingot> * 4, <mysticalagriculture:alumite_essence> * 8, 1500);
-mods.thermalexpansion.Compactor.addPressRecipe(<twilightforest:steelleaf_ingot>* 4, <mysticalagriculture:steeleaf_essence> * 8, 1500);
-mods.thermalexpansion.Compactor.addPressRecipe(<twilightforest:ironwood_ingot>* 4, <mysticalagriculture:ironwood_essence> * 8, 1500);
+mods.thermalexpansion.Compactor.addPressRecipe(<twilightforest:steeleaf_ingot> * 4, <mysticalagriculture:steeleaf_essence> * 8, 1500);
+mods.thermalexpansion.Compactor.addPressRecipe(<twilightforest:ironwood_ingot> * 4, <mysticalagriculture:ironwood_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<twilightforest:knightmetal_ingot> * 4, <mysticalagriculture:knightmetal_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<twilightforest:fiery_ingot> * 4, <mysticalagriculture:fiery_ingot_essence> * 8, 1500);
-mods.thermalexpansion.Compactor.addPressRecipe(<appliedenergistics2:material:0>* 4, <mysticalagriculture:certus_quartz_essence> * 8, 1500);
+mods.thermalexpansion.Compactor.addPressRecipe(<appliedenergistics2:material:0> * 4, <mysticalagriculture:certus_quartz_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<appliedenergistics2:material:7> * 4, <mysticalagriculture:fluix_essence> * 8, 1500);
 
+mods.thermalexpansion.Compactor.addPressRecipe(<mysticalagriculture:boron_essence> * 4, <nuclearcraft:ingot:5> * 8);
+mods.thermalexpansion.Compactor.addPressRecipe(<mysticalagriculture:thorium_essence> * 4, <nuclearcraft:ingot:3> * 8);
+mods.thermalexpansion.Compactor.addPressRecipe(<mysticalagriculture:lithium_essence> * 4, <nuclearcraft:ingot:6> * 8);
+mods.thermalexpansion.Compactor.addPressRecipe(<mysticalagriculture:magnesium_essence> * 4, <nuclearcraft:ingot:7> * 8);
 mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:ore:7>, <mysticalagriculture:iridium_ore_essence> * 12, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<ic2:nuclear:2>, <mysticalagriculture:uranium_238_essence> * 9, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<ic2:ingot:8> * 2, <mysticalagriculture:uranium_essence> * 9, 1500);
@@ -157,5 +170,6 @@ mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:166> 
 mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:167> * 2, <mysticalagriculture:enderium_essence> * 9, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<redstonearsenal:material:32> * 2, <mysticalagriculture:fluxed_electrum_essence> * 9, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<bigreactors:ingotyellorium> * 2, <mysticalagriculture:yellorium_essence> * 9, 1500);
+mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:165> * 2, <mysticalagriculture:signalum_essence> * 9, 1500);
 
 mods.thermalexpansion.Compactor.addPressRecipe(<draconicevolution:draconium_ingot> * 1, <mysticalagriculture:draconium_essence> * 28, 1500);
