@@ -706,6 +706,11 @@ mods.jei.JEI.removeAndHide(<nuclearcraft:helm_hard_carbon>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:chest_hard_carbon>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:legs_hard_carbon>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:axe_tough>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:boots_hard_carbon>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:helm_boron_nitride>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:chest_boron_nitride>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:legs_boron_nitride>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:boots_boron_nitride>);
 
 mods.jei.JEI.addItem(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte}));
 mods.jei.JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 25000, RSControl: 0 as byte, Facing: 3 as byte, Creative: 1 as byte, Energy: 50000000, Level: 4 as byte, SideCache: [2, 2, 2, 2, 2, 2] as byte[] as byte[], Send: 25000}));
