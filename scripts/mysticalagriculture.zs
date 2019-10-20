@@ -99,10 +99,10 @@ mods.ic2.Compressor.addRecipe(<twilightforest:fiery_ingot> * 4, <mysticalagricul
 mods.ic2.Compressor.addRecipe(<appliedenergistics2:material:0> * 4, <mysticalagriculture:certus_quartz_essence> * 8);
 mods.ic2.Compressor.addRecipe(<appliedenergistics2:material:7> * 4, <mysticalagriculture:fluix_essence> * 8);
 
-mods.ic2.Compressor.addRecipe(<mysticalagriculture:boron_essence> * 4, <nuclearcraft:ingot:5> * 8);
-mods.ic2.Compressor.addRecipe(<mysticalagriculture:thorium_essence> * 4, <nuclearcraft:ingot:3> * 8);
-mods.ic2.Compressor.addRecipe(<mysticalagriculture:lithium_essence> * 4, <nuclearcraft:ingot:6> * 8);
-mods.ic2.Compressor.addRecipe(<mysticalagriculture:magnesium_essence> * 4, <nuclearcraft:ingot:7> * 8);
+mods.ic2.Compressor.addRecipe(<nuclearcraft:ingot:5> * 4, <mysticalagriculture:boron_essence> * 8);
+mods.ic2.Compressor.addRecipe(<nuclearcraft:ingot:3> * 4, <mysticalagriculture:thorium_essence> * 8);
+mods.ic2.Compressor.addRecipe(<nuclearcraft:ingot:6> * 4, <mysticalagriculture:lithium_essence> * 8);
+mods.ic2.Compressor.addRecipe(<nuclearcraft:ingot:7> * 4, <mysticalagriculture:magnesium_essence> * 8);
 mods.ic2.Compressor.addRecipe(<thermalfoundation:ore:7>, <mysticalagriculture:iridium_ore_essence> * 12);
 mods.ic2.Compressor.addRecipe(<ic2:nuclear:2>, <mysticalagriculture:uranium_238_essence> * 9);
 mods.ic2.Compressor.addRecipe(<ic2:ingot:8> * 2, <mysticalagriculture:uranium_essence> * 9);
@@ -157,10 +157,11 @@ mods.thermalexpansion.Compactor.addPressRecipe(<twilightforest:fiery_ingot> * 4,
 mods.thermalexpansion.Compactor.addPressRecipe(<appliedenergistics2:material:0> * 4, <mysticalagriculture:certus_quartz_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<appliedenergistics2:material:7> * 4, <mysticalagriculture:fluix_essence> * 8, 1500);
 
-mods.thermalexpansion.Compactor.addPressRecipe(<mysticalagriculture:boron_essence> * 4, <nuclearcraft:ingot:5> * 8);
-mods.thermalexpansion.Compactor.addPressRecipe(<mysticalagriculture:thorium_essence> * 4, <nuclearcraft:ingot:3> * 8);
-mods.thermalexpansion.Compactor.addPressRecipe(<mysticalagriculture:lithium_essence> * 4, <nuclearcraft:ingot:6> * 8);
-mods.thermalexpansion.Compactor.addPressRecipe(<mysticalagriculture:magnesium_essence> * 4, <nuclearcraft:ingot:7> * 8);
+
+mods.thermalexpansion.Compactor.addPressRecipe(<nuclearcraft:ingot:5> * 4, <mysticalagriculture:boron_essence> * 8, 1500);
+mods.thermalexpansion.Compactor.addPressRecipe(<nuclearcraft:ingot:3> * 4, <mysticalagriculture:thorium_essence> * 8, 1500);
+mods.thermalexpansion.Compactor.addPressRecipe(<nuclearcraft:ingot:6> * 4, <mysticalagriculture:lithium_essence> * 8, 1500);
+mods.thermalexpansion.Compactor.addPressRecipe(<nuclearcraft:ingot:7> * 4, <mysticalagriculture:magnesium_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:ore:7>, <mysticalagriculture:iridium_ore_essence> * 12, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<ic2:nuclear:2>, <mysticalagriculture:uranium_238_essence> * 9, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<ic2:ingot:8> * 2, <mysticalagriculture:uranium_essence> * 9, 1500);
