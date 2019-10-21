@@ -3,30 +3,34 @@
 
 //Chaning Infusion Crystal Recipes
 recipes.remove(<mysticalagriculture:infusion_crystal>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:infusion_crystal>, [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:diamond>], 5200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:infusion_crystal>, [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:diamond>], 6200);
 
 recipes.remove(<mysticalagriculture:master_infusion_crystal>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:master_infusion_crystal>, [<mysticalagriculture:infusion_crystal>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:diamond], 20000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:master_infusion_crystal>, [<mysticalagriculture:infusion_crystal>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:diamond>], 25000);
+
+//Base Seed
+recipes.remove(<mysticalagriculture:crafting:16>);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:16>, [<mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:wheat_seeds>, <botania:rune:2>], 8200);
 
 //Tier 1
 recipes.remove(<mysticalagriculture:crafting:17>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:17>, [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:16>, <botania:rune:2>], 6200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:17>, [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:16>, <botania:rune:2>], 10200);
 
 //Tier 2
 recipes.remove(<mysticalagriculture:crafting:18>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:18>, [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:17>, <botania:rune:2>], 7200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:18>, [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:17>, <botania:rune:2>], 12200);
 
 //Tier 3
 recipes.remove(<mysticalagriculture:crafting:19>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:19>, [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:18>, <botania:rune:2>], 8200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:19>, [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:18>, <botania:rune:2>], 14200);
 
 //Tier 4
 recipes.remove(<mysticalagriculture:crafting:20>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:20>, [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:19>, <botania:rune:2>], 9200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:20>, [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:19>, <botania:rune:2>], 16200);
 
 //Tier 5
 recipes.remove(<mysticalagriculture:crafting:21>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:16>, [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:20>, <botania:rune:2>], 10200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:21>, [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:20>, <botania:rune:2>], 18200);
 
 //Remove Recipes
 recipes.removeByRecipeName("mysticalagriculture:ingotenderium");
@@ -124,10 +128,6 @@ mods.ic2.Compressor.addRecipe(<twilightforest:fiery_ingot> * 4, <mysticalagricul
 mods.ic2.Compressor.addRecipe(<appliedenergistics2:material:0> * 4, <mysticalagriculture:certus_quartz_essence> * 8);
 mods.ic2.Compressor.addRecipe(<appliedenergistics2:material:7> * 4, <mysticalagriculture:fluix_essence> * 8);
 
-mods.ic2.Compressor.addRecipe(<nuclearcraft:ingot:5> * 4, <mysticalagriculture:boron_essence> * 8);
-mods.ic2.Compressor.addRecipe(<nuclearcraft:ingot:3> * 4, <mysticalagriculture:thorium_essence> * 8);
-mods.ic2.Compressor.addRecipe(<nuclearcraft:ingot:6> * 4, <mysticalagriculture:lithium_essence> * 8);
-mods.ic2.Compressor.addRecipe(<nuclearcraft:ingot:7> * 4, <mysticalagriculture:magnesium_essence> * 8);
 mods.ic2.Compressor.addRecipe(<thermalfoundation:ore:7>, <mysticalagriculture:iridium_ore_essence> * 12);
 mods.ic2.Compressor.addRecipe(<ic2:nuclear:2>, <mysticalagriculture:uranium_238_essence> * 9);
 mods.ic2.Compressor.addRecipe(<ic2:ingot:8> * 2, <mysticalagriculture:uranium_essence> * 9);
@@ -182,11 +182,6 @@ mods.thermalexpansion.Compactor.addPressRecipe(<twilightforest:fiery_ingot> * 4,
 mods.thermalexpansion.Compactor.addPressRecipe(<appliedenergistics2:material:0> * 4, <mysticalagriculture:certus_quartz_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<appliedenergistics2:material:7> * 4, <mysticalagriculture:fluix_essence> * 8, 1500);
 
-
-mods.thermalexpansion.Compactor.addPressRecipe(<nuclearcraft:ingot:5> * 4, <mysticalagriculture:boron_essence> * 8, 1500);
-mods.thermalexpansion.Compactor.addPressRecipe(<nuclearcraft:ingot:3> * 4, <mysticalagriculture:thorium_essence> * 8, 1500);
-mods.thermalexpansion.Compactor.addPressRecipe(<nuclearcraft:ingot:6> * 4, <mysticalagriculture:lithium_essence> * 8, 1500);
-mods.thermalexpansion.Compactor.addPressRecipe(<nuclearcraft:ingot:7> * 4, <mysticalagriculture:magnesium_essence> * 8, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:ore:7>, <mysticalagriculture:iridium_ore_essence> * 12, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<ic2:nuclear:2>, <mysticalagriculture:uranium_238_essence> * 9, 1500);
 mods.thermalexpansion.Compactor.addPressRecipe(<ic2:ingot:8> * 2, <mysticalagriculture:uranium_essence> * 9, 1500);

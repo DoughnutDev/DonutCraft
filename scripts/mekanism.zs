@@ -14,6 +14,7 @@ recipes.remove(<mekanismgenerators:generator:3>);
 recipes.remove(<mekanism:basicblock:8>);
 recipes.remove(<mekanism:machineblock:8>);
 
+mods.mekanism.infuser.removeRecipe(<ore:dustSteel>);
 
 //Added
 recipes.addShaped(<mekanism:controlcircuit:2>, [[null, null, null],[<mekanism:reinforcedalloy>, <ic2:crafting:2>, <mekanism:reinforcedalloy>], [null, null, null]]);
