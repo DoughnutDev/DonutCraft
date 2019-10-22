@@ -1,3 +1,5 @@
+mods.jei.JEI.addItem(<minecraft:written_book>.withTag({pages: ["{\"text\":\"DoughnutDev\\nMasterDyson\\nZedlynx\"}"], author: "DonutCraft", title: "Book of Devs", resolved: 1 as byte}));
+
 mods.jei.JEI.hide(<extrautils2:rainbowgenerator:2>);
 mods.jei.JEI.hide(<extrautils2:rainbowgenerator:1>);
 mods.jei.JEI.hide(<extrautils2:rainbowgenerator>);
