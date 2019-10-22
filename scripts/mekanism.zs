@@ -3,6 +3,9 @@ mods.jei.JEI.removeAndHide(<mekanism:controlcircuit>);
 
 recipes.replaceAllOccurences(<mekanism:basicblock:8>, <thermalexpansion:frame>);
 
+mods.mekanism.smelter.removeRecipe(<immersiveengineering:metal:14>, <immersiveengineering:metal:5>);
+mods.mekanism.smelter.addRecipe(<immersiveengineering:metal:14>, <ic2:ingot:8>);
+
 //Remove
 recipes.remove(<mekanism:controlcircuit:2>);
 recipes.remove(<mekanism:atomicdisassembler>);

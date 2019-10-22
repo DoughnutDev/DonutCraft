@@ -1,5 +1,5 @@
 //Book of Devs
-recipes.addShaped(<minecraft:written_book>.withTag({pages: ["{\"text\":\"DoughnutDev\\nMasterDyson\\nZedlynx\"}"], author: "DonutCraft", title: "Book of Devs"}), [[null, <thermalexpansion:cell>, null],[<thermalexpansion:tank>, <botania:pool:1>, <extrautils2:itemcreativebuilderswand>], [null, <advanced_solar_panels:machines:1>, null]]);
+recipes.addShaped(<minecraft:written_book>.withTag({pages: ["{\"text\":\"DoughnutDev\\nMasterDyson\\nZedlynx\"}"], author: "DonutCraft", title: "Book of Devs"}), [[null, <thermalexpansion:cell>.withTag({Recv: 25000, RSControl: 0 as byte, Facing: 3 as byte, Creative: 1 as byte, Energy: 50000000, Level: 4 as byte, SideCache: [2, 2, 2, 2, 2, 2] as byte[] as byte[], Send: 25000}, null],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte}), <botania:pool:1>, <extrautils2:itemcreativebuilderswand>], [null, <advanced_solar_panels:machines:1>, null]]);
 
 //Creative Tank
 mods.avaritia.ExtremeCrafting.addShaped("Creative Fluid Tank",<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte}),

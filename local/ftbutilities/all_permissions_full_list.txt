@@ -1,4 +1,4 @@
-14051 nodes in total
+14057 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -933,6 +933,7 @@ ftbutilities.claims.block.edit.chiselsandbits.chiseled_rock: OP
 ftbutilities.claims.block.edit.chiselsandbits.chiseled_sand: OP
 ftbutilities.claims.block.edit.chiselsandbits.chiseled_snow: OP
 ftbutilities.claims.block.edit.chiselsandbits.chiseled_wood: OP
+ftbutilities.claims.block.edit.compactsolars.compact_solar_block: OP
 ftbutilities.claims.block.edit.computercraft.advanced_modem: OP
 ftbutilities.claims.block.edit.computercraft.cable: OP
 ftbutilities.claims.block.edit.computercraft.command_computer: OP
@@ -4382,6 +4383,7 @@ ftbutilities.claims.block.interact.chiselsandbits.chiseled_rock: OP
 ftbutilities.claims.block.interact.chiselsandbits.chiseled_sand: OP
 ftbutilities.claims.block.interact.chiselsandbits.chiseled_snow: OP
 ftbutilities.claims.block.interact.chiselsandbits.chiseled_wood: OP
+ftbutilities.claims.block.interact.compactsolars.compact_solar_block: OP
 ftbutilities.claims.block.interact.computercraft.advanced_modem: OP
 ftbutilities.claims.block.interact.computercraft.cable: OP
 ftbutilities.claims.block.interact.computercraft.command_computer: OP
@@ -8208,6 +8210,10 @@ ftbutilities.claims.item.chiselsandbits.negativeprint: ALL
 ftbutilities.claims.item.chiselsandbits.positiveprint: ALL
 ftbutilities.claims.item.chiselsandbits.tape_measure: ALL
 ftbutilities.claims.item.chiselsandbits.wrench_wood: ALL
+ftbutilities.claims.item.compactsolars.compact_solar_block: ALL
+ftbutilities.claims.item.compactsolars.solar_hat_high_voltage: ALL
+ftbutilities.claims.item.compactsolars.solar_hat_low_voltage: ALL
+ftbutilities.claims.item.compactsolars.solar_hat_medium_voltage: ALL
 ftbutilities.claims.item.computercraft.advanced_modem: ALL
 ftbutilities.claims.item.computercraft.cable: ALL
 ftbutilities.claims.item.computercraft.command_computer: ALL
