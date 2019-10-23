@@ -3,34 +3,34 @@
 
 //Chaning Infusion Crystal Recipes
 recipes.remove(<mysticalagriculture:infusion_crystal>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:infusion_crystal>, [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:diamond>], 6200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:infusion_crystal>, [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:diamond>], 500000);
 
 recipes.remove(<mysticalagriculture:master_infusion_crystal>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:master_infusion_crystal>, [<mysticalagriculture:infusion_crystal>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:diamond>], 25000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:master_infusion_crystal>, [<mysticalagriculture:infusion_crystal>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:diamond>], 1000000);
 
 //Base Seed
 recipes.remove(<mysticalagriculture:crafting:16>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:16>, [<mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:wheat_seeds>, <botania:rune:2>], 8200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:16>, [<mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <minecraft:wheat_seeds>, <botania:rune:2>], 45000);
 
 //Tier 1
 recipes.remove(<mysticalagriculture:crafting:17>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:17>, [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:16>, <botania:rune:2>], 10200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:17>, [<mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting>, <mysticalagriculture:crafting:16>, <botania:rune:2>], 75000);
 
 //Tier 2
 recipes.remove(<mysticalagriculture:crafting:18>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:18>, [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:17>, <botania:rune:2>], 12200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:18>, [<mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:1>, <mysticalagriculture:crafting:17>, <botania:rune:2>], 95000);
 
 //Tier 3
 recipes.remove(<mysticalagriculture:crafting:19>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:19>, [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:18>, <botania:rune:2>], 14200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:19>, [<mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:18>, <botania:rune:2>], 250000);
 
 //Tier 4
 recipes.remove(<mysticalagriculture:crafting:20>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:20>, [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:19>, <botania:rune:2>], 16200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:20>, [<mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:19>, <botania:rune:2>], 450000);
 
 //Tier 5
 recipes.remove(<mysticalagriculture:crafting:21>);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:21>, [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:20>, <botania:rune:2>], 18200);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:crafting:21>, [<mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:4>, <mysticalagriculture:crafting:20>, <botania:rune:2>], 750000);
 
 //Remove Recipes
 recipes.removeByRecipeName("mysticalagriculture:ingotenderium");

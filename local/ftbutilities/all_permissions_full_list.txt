@@ -1,4 +1,4 @@
-14057 nodes in total
+14063 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -108,6 +108,8 @@ ftbutilities.claims.block.edit.avaritia.double_compressed_crafting_table: OP
 ftbutilities.claims.block.edit.avaritia.extreme_crafting_table: OP
 ftbutilities.claims.block.edit.avaritia.neutron_collector: OP
 ftbutilities.claims.block.edit.avaritia.neutronium_compressor: OP
+ftbutilities.claims.block.edit.avaritiarecipemaker.avaritiarecipemakerblock: OP
+ftbutilities.claims.block.edit.avaritiarecipemaker.vanillarecipemakerblock: OP
 ftbutilities.claims.block.edit.bibliocraft.armorstand: OP
 ftbutilities.claims.block.edit.bibliocraft.bell: OP
 ftbutilities.claims.block.edit.bibliocraft.bookcase: OP
@@ -3558,6 +3560,8 @@ ftbutilities.claims.block.interact.avaritia.double_compressed_crafting_table: OP
 ftbutilities.claims.block.interact.avaritia.extreme_crafting_table: OP
 ftbutilities.claims.block.interact.avaritia.neutron_collector: OP
 ftbutilities.claims.block.interact.avaritia.neutronium_compressor: OP
+ftbutilities.claims.block.interact.avaritiarecipemaker.avaritiarecipemakerblock: OP
+ftbutilities.claims.block.interact.avaritiarecipemaker.vanillarecipemakerblock: OP
 ftbutilities.claims.block.interact.bibliocraft.armorstand: OP
 ftbutilities.claims.block.interact.bibliocraft.bell: OP
 ftbutilities.claims.block.interact.bibliocraft.bookcase: OP
@@ -7068,6 +7072,8 @@ ftbutilities.claims.item.avaritia.resource: ALL
 ftbutilities.claims.item.avaritia.singularity: ALL
 ftbutilities.claims.item.avaritia.skullfire_sword: ALL
 ftbutilities.claims.item.avaritia.ultimate_stew: ALL
+ftbutilities.claims.item.avaritiarecipemaker.avaritiarecipemakerblock: ALL
+ftbutilities.claims.item.avaritiarecipemaker.vanillarecipemakerblock: ALL
 ftbutilities.claims.item.baubles.ring: ALL
 ftbutilities.claims.item.bibliocraft.armorstand: ALL
 ftbutilities.claims.item.bibliocraft.atlasbook: ALL
