@@ -15,8 +15,10 @@ recipes.remove(<computercraft:computer:16384>);
 recipes.remove(<ic2:resource:12>);
 recipes.remove(<computercraft:computer>);
 recipes.remove(<computercraft:turtle>);
+recipes.remove(<ic2:heat_storage>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<ic2:heat_storage>, [[null, <thermalfoundation:material:321>, null],[<thermalfoundation:material:321>, <ic2:fluid_cell>, <thermalfoundation:material:321>], [null, <thermalfoundation:material:321>, null]]);
 recipes.addShaped(<thaumcraft:creative_flux_sponge>, [[<avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>],[<avaritia:endest_pearl>, <openblocks:sponge_on_a_stick>, <avaritia:endest_pearl>], [<avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>]]);
 recipes.addShaped(<thermalfoundation:material:656>, [[null, <thermalfoundation:material:352>, null],[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>], [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>]]);
 recipes.addShaped(<torcherino:blocktorcherino>, [[<avaritia:resource:4>, <minecraft:clock>, <avaritia:resource:4>],[<minecraft:clock>, <torchmaster:mega_torch>, <minecraft:clock>], [<avaritia:resource:4>, <minecraft:clock>, <avaritia:resource:4>]]);

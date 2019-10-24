@@ -1,6 +1,6 @@
 //#Remove
 
-val plutonium = <ore:ingotPlutonium>
+val plutonium = <ore:ingotPlutonium>;
 
 plutonium.remove(<bigreactors:ingotblutonium>);
 

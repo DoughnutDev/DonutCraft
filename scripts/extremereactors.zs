@@ -8,7 +8,6 @@ recipes.removeShaped(<bigreactors:reactorpowertaprf>);
 recipes.remove(<bigreactors:reactorcontroller>);
 recipes.remove(<bigreactors:reactorcasing>);
 
-
 recipes.addShaped(<bigreactors:turbineglass>, [[<ore:blockGlassHardened>, <bigreactors:turbinehousing>, <ore:blockGlassHardened>],[null, null, null], [null, null, null]]);
 recipes.addShaped(<bigreactors:reactorglass>, [[<ore:blockGlassHardened>, <bigreactors:reactorcasing>, <ore:blockGlassHardened>],[null, null, null], [null, null, null]]);
 recipes.addShaped(<bigreactors:reactorfuelrod>, [[<ore:blockGlassHardened>, null, <ore:blockGlassHardened>],[<ore:blockGlassHardened>, <ic2:nuclear:10>, <ore:blockGlassHardened>], [<ore:blockGlassHardened>, null, <ore:blockGlassHardened>]]);
