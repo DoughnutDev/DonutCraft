@@ -41,4 +41,4 @@ recipes.addShaped(<buildcraftsilicon:laser>, [[<minecraft:obsidian>, <minecraft:
 recipes.addShaped(<buildcraftbuilders:quarry>, [[<thermalfoundation:material:24>, <ic2:crafting:2>, <thermalfoundation:material:24>],[<thermalfoundation:material:25>, <thermalfoundation:material:24>, <thermalfoundation:material:25>], [<thermalfoundation:material:26>, <ic2:diamond_drill:26>, <thermalfoundation:material:26>]]);
 
 
-mods.buildcraft.AssemblyTable.addRecipe(<thermalexpansion:frame>, 40000, [<ic2:plate:16>, <railcraft:generic:7> * 2, <forestry:chipsets>.withTag({T: 0 as short}), <thermalfoundation:material:257>, <buildcraftsilicon:redstone_chipset:1>]);
+mods.buildcraft.AssemblyTable.addRecipe(<thermalexpansion:frame>, 40000, [<thermalfoundation:material:352> * 4, <railcraft:generic:7> * 2, <forestry:chipsets>.withTag({T: 0 as short}), <thermalfoundation:material:257>, <buildcraftsilicon:redstone_chipset:1>]);
