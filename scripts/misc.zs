@@ -1,5 +1,9 @@
 //#Remove
 
+val plutonium = <ore:ingotPlutonium>
+
+plutonium.remove(<bigreactors:ingotblutonium>);
+
 //Buildcraft & RailCraft
 recipes.remove(<railcraft:coke_oven>);
 recipes.remove(<railcraft:blast_furnace>);
