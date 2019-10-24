@@ -26,6 +26,58 @@
 					1
 				]
 			}
+		},
+		"saltpeter": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "railcraft:ore_metal",
+					"properties": {
+						"variant": "saltpeter"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 20,
+			"min-height": 12,
+			"max-height": 75,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"sulfur": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "railcraft:ore_metal",
+					"properties": {
+						"variant": "sulfur"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 25,
+			"min-height": 12,
+			"max-height": 65,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
 		}
   }
 }
