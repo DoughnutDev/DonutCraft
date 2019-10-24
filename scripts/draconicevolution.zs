@@ -53,7 +53,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Wyvern Helmet", <draconicevolution:wyve
 [[null, null, null, null, null, null, null, null, null],
 [null, null, null, <redstonearsenal:storage:1>, <draconicevolution:draconium_capacitor:0>, <redstonearsenal:storage:1>, null, null, null],
 [null, null, <draconicevolution:draconium_block:0>, <redstonearsenal:storage:1>, <redstonearsenal:material:193>, <redstonearsenal:storage:1>, <draconicevolution:draconium_block:0>, null, null],
-[null, null, <draconicevolution:draconium_block:0>, <redstonearsenal:material:193>, <ic2:quantum_helmet:26>.withTag({}), <ic2:quantum_helmet:26>.withTag({}), <draconicevolution:draconium_block:0>, null, null],
+[null, null, <draconicevolution:draconium_block:0>, <redstonearsenal:material:193>, <ic2:quantum_helmet:26>.withTag({}), <redstonearsenal:material:193>, <draconicevolution:draconium_block:0>, null, null],
 [null, <draconicevolution:draconium_block:0>, <redstonearsenal:material:193>, <redstonearsenal:armor.helmet_flux>, <minecraft:dragon_egg>, <thaumcraft:thaumium_helm>, <redstonearsenal:material:193>, <draconicevolution:draconium_block:0>, null],
 [<draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <botania:terrasteelhelm>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>],
 [<draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, null, null, <draconicevolution:draconium_block:0>],
@@ -105,7 +105,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Wyvern Boots", <draconicevolution:wyver
 //Wyvern Flux Capicator
 recipes.remove(<draconicevolution:draconium_capacitor>);
 
-mods.thaumcraft.Infusion.registerRecipe("Wyvern Flux Capicator", "", <draconicevolution:draconium_capacitor>, 4, [<aspect:instrumentum> * 128, <aspect:potentia> * 128, <aspect:vinculum> * 128], <thermalexpansion:capacitor:4>, [<draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>]);
+mods.thaumcraft.Infusion.registerRecipe("Wyvern Flux Capicator", "", <draconicevolution:draconium_capacitor>, 3, [<aspect:instrumentum> * 128, <aspect:potentia> * 128, <aspect:vinculum> * 128], <thermalexpansion:capacitor:4>, [<draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>]);
 
 //Awakened Core
 recipes.remove(<draconicevolution:awakened_core>);
@@ -115,15 +115,15 @@ mods.botania.RuneAltar.addRecipe(<draconicevolution:awakened_core>, [<draconicev
 //Awakened Flux Capicator
 recipes.remove(<draconicevolution:draconium_capacitor:1>);
 
-mods.thaumcraft.Infusion.registerRecipe("Awakened Flux Capicator", "", <draconicevolution:draconium_capacitor:1>, 6, [<aspect:instrumentum> * 256, <aspect:potentia> * 256, <aspect:vinculum> * 256], <draconicevolution:draconium_capacitor>, [<draconicevolution:draconic_block>, <draconicevolution:draconic_energy_core>, <draconicevolution:draconic_block>, <draconicevolution:draconic_energy_core>, <draconicevolution:draconic_block>, <draconicevolution:draconic_energy_core>, <draconicevolution:draconic_block>, <draconicevolution:draconic_energy_core>]);
+mods.thaumcraft.Infusion.registerRecipe("Awakened Flux Capicator", "", <draconicevolution:draconium_capacitor:1>, 8, [<aspect:instrumentum> * 256, <aspect:potentia> * 256, <aspect:vinculum> * 256], <draconicevolution:draconium_capacitor>, [<draconicevolution:draconic_block>, <draconicevolution:draconic_energy_core>, <draconicevolution:draconic_block>, <draconicevolution:draconic_energy_core>, <draconicevolution:draconic_block>, <draconicevolution:draconic_energy_core>, <draconicevolution:draconic_block>, <draconicevolution:draconic_energy_core>]);
 
 
 //Wyvern Cores
 recipes.remove(<draconicevolution:wyvern_core>);
 
-mods.thaumcraft.Infusion.registerRecipe("Wyvern Core", "", <draconicevolution:wyvern_core>, 2, [<aspect:alienis> * 64, <aspect:spiritus> * 64, <aspect:praecantatio> * 64, <aspect:auram> * 64], <minecraft:nether_star>, [<draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>]);
+mods.thaumcraft.Infusion.registerRecipe("Wyvern Core", "", <draconicevolution:wyvern_core>, 4, [<aspect:alienis> * 64, <aspect:spiritus> * 64, <aspect:praecantatio> * 64, <aspect:auram> * 64], <minecraft:nether_star>, [<draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>]);
 
 //Mob Grinder
 recipes.remove(<draconicevolution:grinder>);
 
-mods.thaumcraft.Infusion.registerRecipe("Mob Grinder", "", <draconicevolution:grinder>, 1, [<aspect:machina> * 128, <aspect:aversio> * 128, <aspect:perditio> * 128, <aspect:mortuus> * 128], <thaumcraft:turret:2>, [<draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <thermalfoundation:storage_alloy>, <industrialforegoing:mob_relocator>, <thermalfoundation:storage_alloy>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <thermalfoundation:storage_alloy>, <industrialforegoing:mob_relocator>, <thermalfoundation:storage_alloy>, <draconicevolution:draconium_block>]);
+mods.thaumcraft.Infusion.registerRecipe("Mob Grinder", "", <draconicevolution:grinder>, 2, [<aspect:machina> * 128, <aspect:aversio> * 128, <aspect:perditio> * 128, <aspect:mortuus> * 128], <thaumcraft:turret:2>, [<draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <thermalfoundation:storage_alloy>, <industrialforegoing:mob_relocator>, <thermalfoundation:storage_alloy>, <draconicevolution:draconium_block>, <draconicevolution:draconic_core>, <draconicevolution:draconium_block>, <thermalfoundation:storage_alloy>, <industrialforegoing:mob_relocator>, <thermalfoundation:storage_alloy>, <draconicevolution:draconium_block>]);
