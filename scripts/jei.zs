@@ -562,6 +562,7 @@ mods.jei.JEI.removeAndHide(<jaopca:item_stickuranium>);
 mods.jei.JEI.removeAndHide(<jaopca:item_stickyellorium>);
 mods.jei.JEI.removeAndHide(<jaopca:item_stickzinc>);
 mods.jei.JEI.removeAndHide(<railcraft:coke_oven_red>);
+mods.jei.JEI.removeAndHide(<draconicevolution:generator>);
 
 mods.jei.JEI.addItem(<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 1 as byte, Level: 4 as byte}));
 mods.jei.JEI.addItem(<thermalexpansion:cell>.withTag({Recv: 25000, RSControl: 0 as byte, Facing: 3 as byte, Creative: 1 as byte, Energy: 50000000, Level: 4 as byte, SideCache: [2, 2, 2, 2, 2, 2] as byte[] as byte[], Send: 25000}));

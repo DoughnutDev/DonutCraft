@@ -19,6 +19,8 @@ mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
 //Thermal Expansion
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:768> * 4, <minecraft:iron_ingot>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:768> * 4, <thermalfoundation:material>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<immersiveengineering:material:6>, <thermalfoundation:material>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<immersiveengineering:material:6>, <minecraft:iron_ingot>);
 recipes.remove(<thermalexpansion:dynamo:3>);
 recipes.remove(<thermalexpansion:dynamo:2>);
 recipes.remove(<thermalexpansion:dynamo>);

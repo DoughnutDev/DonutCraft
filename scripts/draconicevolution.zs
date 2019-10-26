@@ -31,7 +31,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Wyvern Sword", <draconicevolution:wyver
 [null, null, null, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, <draconicevolution:draconium_block:0>, null, null, null],
 [null, null, null, <redstonearsenal:storage:1>, <redstonearsenal:tool.sword_flux>, <redstonearsenal:storage:1>, null, null, null],
 [null, <redstonearsenal:material:193>, null, <bloodmagic:sentient_sword>, <minecraft:dragon_egg>, <thaumcraft:elemental_sword>, null, <redstonearsenal:material:193>, null],
-[null, null, <redstonearsenal:material:193>, <redstonearsenal:storage:1>, <botania:elementiumsword>, <redstonearsenal:storage:1>, <redstonearsenal:material:193>, null, null],
+[null, null, <redstonearsenal:material:193>, <redstonearsenal:storage:1>, <botania:terrasword>, <redstonearsenal:storage:1>, <redstonearsenal:material:193>, null, null],
 [null, null, null, null, <draconicevolution:draconium_capacitor>, null, null, null, null],[null, null, null, null, <redstonearsenal:material:193>, null, null, null, null]]);
 
 //Wyvern Bow
