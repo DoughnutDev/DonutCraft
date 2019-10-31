@@ -2,15 +2,12 @@
 	"dependencies": "thermalfoundation",
 	"populate": {
 		"redstone_clathrate": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "redstone"
-						},
+						"metadata": 2,
 						"weight": 90
 					},
 					{
@@ -36,15 +33,12 @@
 			}
 		},
 		"glowstone_clathrate": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "glowstone"
-						},
+						"metadata": 3,
 						"weight": 90
 					},
 					{
@@ -72,14 +66,11 @@
 			"dimension": "all"
 		},
 		"ender_clathrate": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": {
 					"name": "thermalfoundation:ore_fluid",
-					"properties": {
-						"type": "ender"
-					}
+					"metadata": 4
 				},
 				"material": "minecraft:end_stone",
 				"cluster-size": 24

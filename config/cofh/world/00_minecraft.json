@@ -1,5 +1,4 @@
 {
-	"priority": 1000000000000,
 	"populate": {
 		"dirt": {
 
@@ -54,7 +53,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 13
 			},
 			"cluster-count": 10,
 			"min-height": 0,
@@ -80,7 +79,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 13
 			},
 			"cluster-count": 10,
 			"min-height": 0,
@@ -106,7 +105,7 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 13
 			},
 			"cluster-count": 10,
 			"min-height": 0,
@@ -374,7 +373,7 @@
 				"material": "minecraft:netherrack",
 				"cluster-size": 14
 			},
-			"cluster-count": 16,
+			"cluster-count": 20,
 			"min-height": 10,
 			"max-height": 118,
 			"retrogen": false,

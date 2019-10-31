@@ -2,15 +2,9 @@
 	"dependencies": "thermalfoundation",
 	"populate": {
 		"oil_sand_clathrate": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore_fluid",
-					"properties": {
-						"type": "crude_oil_sand"
-					}
-				},
+				"block": "thermalfoundation:ore_fluid",
 				"material": [
 					"minecraft:sand",
 					"minecraft:sandstone",
@@ -36,15 +30,12 @@
 			"dimension": "all"
 		},
 		"oil_shale_clathrate": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "crude_oil_gravel"
-						},
+						"metadata": 1,
 						"weight": 80
 					},
 					{
@@ -89,16 +80,13 @@
 			"dimension": "all"
 		},
 		"oil_sand": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"type": "geode",
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "crude_oil_sand"
-						},
+						"metadata": 0,
 						"weight": 80
 					},
 					{
@@ -139,16 +127,13 @@
 			}
 		},
 		"oil_shale": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"type": "geode",
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "crude_oil_gravel"
-						},
+						"metadata": 1,
 						"weight": 80
 					},
 					{

@@ -37,7 +37,6 @@ recipes.remove(<thermalfoundation:material:289>);
 recipes.remove(<thermalfoundation:material:290>);
 recipes.remove(<thermalfoundation:material:292>);
 recipes.remove(<thermalfoundation:material:293>);
-recipes.remove(<railcraft:gear>);
 recipes.remove(<thermalfoundation:material:294>);
 recipes.remove(<thermalfoundation:material:291>);
 
@@ -52,6 +51,5 @@ recipes.addShaped(<thermalfoundation:material:289>, [[null, <ore:ingotElectrum>,
 recipes.addShaped(<thermalfoundation:material:290>, [[null, <ore:ingotInvar>, null],[<ore:ingotInvar>, <thermalfoundation:material:23>, <ore:ingotInvar>], [null, <ore:ingotInvar>, null]]);
 recipes.addShaped(<thermalfoundation:material:292>, [[null, <ore:ingotConstantan>, null],[<ore:ingotConstantan>, <thermalfoundation:material:23>, <ore:ingotConstantan>], [null, <ore:ingotConstantan>, null]]);
 recipes.addShaped(<thermalfoundation:material:293>, [[null, <ore:ingotSignalum>, null],[<ore:ingotSignalum>, <thermalfoundation:material:23>, <ore:ingotSignalum>], [null, <ore:ingotSignalum>, null]]);
-recipes.addShaped(<railcraft:gear>, [[null, <ore:ingotBrass>, null],[<ore:ingotBrass>, <thermalfoundation:material:23>, <ore:ingotBrass>], [null, <ore:ingotBrass>, null]]);
 recipes.addShaped(<thermalfoundation:material:294>, [[null, <ore:ingotLumium>, null],[<ore:ingotLumium>, <thermalfoundation:material:23>, <ore:ingotLumium>], [null, <ore:ingotLumium>, null]]);
 recipes.addShaped(<thermalfoundation:material:291>, [[null, <ore:ingotBronze>, null],[<ore:ingotBronze>, <thermalfoundation:material:23>, <ore:ingotBronze>], [null, <ore:ingotBronze>, null]]);

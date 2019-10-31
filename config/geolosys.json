@@ -1,0 +1,162 @@
+{
+  "coal": {
+    "minY": 28,
+    "maxY": 78,
+    "chance": 23,
+    "size": 64,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "cinnabar": {
+    "minY": 5,
+    "maxY": 12,
+    "chance": 17,
+    "size": 64,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "lapis": {
+    "minY": 10,
+    "maxY": 38,
+    "chance": 31,
+    "size": 32,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "quartz": {
+    "minY": 6,
+    "maxY": 40,
+    "chance": 17,
+    "size": 40,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "kimberlite": {
+    "minY": 2,
+    "maxY": 20,
+    "chance": 25,
+    "size": 20,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "beryl": {
+    "minY": 4,
+    "maxY": 32,
+    "chance": 25,
+    "size": 16,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "hematite": {
+    "minY": 32,
+    "maxY": 60,
+    "chance": 22,
+    "size": 72,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "limonite": {
+    "minY": 6,
+    "maxY": 40,
+    "chance": 27,
+    "size": 72,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "malachite": {
+    "minY": 25,
+    "maxY": 52,
+    "chance": 26,
+    "size": 72,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "azurite": {
+    "minY": 12,
+    "maxY": 44,
+    "chance": 21,
+    "size": 72,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "teallite": {
+    "minY": 8,
+    "maxY": 43,
+    "chance": 29,
+    "size": 72,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "galena": {
+    "minY": 16,
+    "maxY": 50,
+    "chance": 29,
+    "size": 72,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "bauxite": {
+    "minY": 45,
+    "maxY": 70,
+    "chance": 23,
+    "size": 64,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "platinum": {
+    "minY": 3,
+    "maxY": 25,
+    "chance": 26,
+    "size": 32,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "autunite": {
+    "minY": 3,
+    "maxY": 25,
+    "chance": 25,
+    "size": 24,
+    "blacklist": [
+        -1,
+        1
+    ]
+  },
+  "sphalerite": {
+    "minY": 35,
+    "maxY": 55,
+    "chance": 0,
+    "size": 24,
+    "blacklist": [
+      -1,
+      1
+    ]
+  }
+}
