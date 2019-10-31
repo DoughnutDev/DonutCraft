@@ -1,6 +1,7 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<immersiveengineering:metal_device1:13>);
 recipes.removeShaped(<thermalfoundation:material:656>, [[null, <minecraft:iron_ingot>, null],[<minecraft:iron_ingot>, <thermalfoundation:material:128>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 recipes.removeShaped(<thermalfoundation:material:135>, [[<mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>],[<mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>], [<mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>, <mysticalagriculture:iridium_ore_essence>]]);
 recipes.removeShaped(<ic2:ingot:8> * 2, [[<mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>],[<mysticalagriculture:uranium_essence>, null, <mysticalagriculture:uranium_essence>], [<mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>, <mysticalagriculture:uranium_essence>]]);
@@ -18,6 +19,7 @@ recipes.remove(<computercraft:turtle>);
 recipes.remove(<ic2:heat_storage>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<immersiveengineering:metal_device1:13>, [[<botania:managlass>, <immersiveengineering:material:26>, <botania:managlass>],[<botania:managlass>, <mysticalagriculture:crafting:51>, <botania:managlass>], [<immersiveengineering:treated_wood>, <immersiveengineering:material:9>, <immersiveengineering:treated_wood>]]);
 recipes.addShaped(<ic2:heat_storage>, [[null, <thermalfoundation:material:321>, null],[<thermalfoundation:material:321>, <ic2:fluid_cell>.withTag({Fluid: {FluidName: "ic2coolant", Amount: 1000}}), <thermalfoundation:material:321>], [null, <thermalfoundation:material:321>, null]]);
 recipes.addShaped(<thaumcraft:creative_flux_sponge>, [[<avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>],[<avaritia:endest_pearl>, <openblocks:sponge_on_a_stick>, <avaritia:endest_pearl>], [<avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>]]);
 recipes.addShaped(<thermalfoundation:material:656>, [[null, <thermalfoundation:material:352>, null],[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>], [<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>]]);
