@@ -14193,7 +14193,6 @@ command.immersiveengineering.ie.mineral.list
 command.immersiveengineering.ie.mineral.set
 command.immersiveengineering.ie.mineral.setdepletion
 command.immersivepetroleum.ip
-command.jeresources.jer_profile
 command.journeymap.jtp
 command.kill
 command.locate

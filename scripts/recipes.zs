@@ -19,6 +19,7 @@ recipes.remove(<computercraft:turtle>);
 recipes.remove(<ic2:heat_storage>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<bigreactors:blockludicrite>, [[<bigreactors:ingotblutonium>, <minecraft:blaze_rod>, <bigreactors:ingotblutonium>],[<thermalfoundation:storage_alloy:7>, <minecraft:nether_star>, <thermalfoundation:storage_alloy:7>], [<bigreactors:ingotblutonium>, <minecraft:blaze_rod>, <bigreactors:ingotblutonium>]]);
 recipes.addShaped(<immersiveengineering:metal_device1:13>, [[<botania:managlass>, <immersiveengineering:material:26>, <botania:managlass>],[<botania:managlass>, <mysticalagriculture:crafting:51>, <botania:managlass>], [<immersiveengineering:treated_wood>, <immersiveengineering:material:9>, <immersiveengineering:treated_wood>]]);
 recipes.addShaped(<ic2:heat_storage>, [[null, <thermalfoundation:material:321>, null],[<thermalfoundation:material:321>, <ic2:fluid_cell>.withTag({Fluid: {FluidName: "ic2coolant", Amount: 1000}}), <thermalfoundation:material:321>], [null, <thermalfoundation:material:321>, null]]);
 recipes.addShaped(<thaumcraft:creative_flux_sponge>, [[<avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>],[<avaritia:endest_pearl>, <openblocks:sponge_on_a_stick>, <avaritia:endest_pearl>], [<avaritia:endest_pearl>, <avaritia:endest_pearl>, <avaritia:endest_pearl>]]);
