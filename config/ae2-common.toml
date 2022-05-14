@@ -9,7 +9,7 @@
 	serverOpsIgnoreSecurity = true
 	#Changes the channel capacity that cables provide in AE2.
 	#Allowed Values: INFINITE, DEFAULT, X2, X3, X4
-	channels = "DEFAULT"
+	channels = "INFINITE"
 	#The number of pathfinding steps that are taken per tick and per grid that is booting. Lower numbers will mean booting takes longer, but less work is done per tick.
 	#Range: 1 ~ 1024
 	pathfindingStepsPerTick = 4

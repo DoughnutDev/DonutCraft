@@ -1,0 +1,159 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = images/background.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 1369
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = top-left
+  x = 532
+  action = movebutton
+  y = 233
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 327
+  action = movebutton
+  y = 233
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-left
+  x = 429
+  action = movebutton
+  y = 233
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 302
+  action = movebutton
+  y = 233
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 327
+  action = movebutton
+  y = 211
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = 429
+  width = 98
+  actionid = 1df28449-3bd2-4ec9-91a7-8aefd3659cc01652403309159
+  action = addbutton
+  y = 211
+  label = Report Issue
+  value = https://github.com/DoughnutDev/DonutCraft/issues/new
+  height = 20
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 587
+  slim = false
+  actionid = bef216c0-7171-473f-95ad-f50f875098e71652403838714
+  action = addentity
+  y = 226
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 266
+  slim = false
+  actionid = 5c7a091d-fb22-4e75-8a63-0bab6293e3e61652403900785
+  action = addentity
+  y = 226
+  scale = 30
+  playername = DoughnutDev
+  parrot = false
+}
+
+customization {
+  path = images/donutcrafttitle.png
+  orientation = top-left
+  x = 297
+  width = 260
+  action = addtexture
+  actionid = 60151611-51a6-45c0-8a5c-6e6d75b389af1652403979915
+  y = 8
+  height = 140
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = e255fe3b-5b7c-44c2-83be-07843c07db371652405043468
+  y = 446
+  scale = 1.0
+  alignment = left
+  value = DonutCraft created by DoughnutDev
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 47dfec3d-d3ff-40d1-850e-790bb6eaf61e1652405056283
+  y = 434
+  scale = 1.0
+  alignment = left
+  value = Minecraft %mcversion%
+}
+
