@@ -32,7 +32,7 @@
 		#Maximum size of Runestone veins [default: 3]
 		#Range: 0 ~ 100
 		max_vein_size = 3
-		#Maximum Runestone veins per chunk [default: 2]
+		#Maximum Runestone veins per chunk [default: 3]
 		#Range: 1 ~ 100
 		count = 2
 		#Maximum height for the Runestone to generate [default: 20]
