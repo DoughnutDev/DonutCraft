@@ -1,7 +1,3 @@
-**Mod Pack Name:** DonutCraft
-
-**Version:** Minecraft 1.20
-
 **Description:**
 DonutCraft is an expansive and immersive mod pack for Minecraft 1.20 that brings together a plethora of mods, including GregTech Community Edition, Create Mod, and many more. This mod pack isn't just about crafting and building; it's a progression-driven adventure where all quests are intricately interconnected, creating a cohesive and captivating experience.
 
@@ -26,3 +22,5 @@ DonutCraft is an expansive and immersive mod pack for Minecraft 1.20 that brings
 9. **Regular Updates:** The mod pack is continuously updated to ensure compatibility with the latest Minecraft version and to introduce new content, keeping your adventures in DonutCraft fresh and exciting.
 
 Get ready to embark on a unique Minecraft journey that combines industrial complexity with creative ingenuity, all wrapped up in an immersive storyline. In DonutCraft, quests and mods interconnect to provide a progression-driven pack that will test your skills and engage your imagination. Are you ready to craft your destiny in DonutCraft?
+
+* *Generated with ChatGPT 3.5* *
