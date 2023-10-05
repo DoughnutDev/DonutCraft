@@ -1,3 +1,5 @@
+![banner](https://github.com/DoughnutDev/DonutCraft/assets/6487557/7e20c3df-e186-4dc1-8d51-18df1ad195a2)
+
 **Description:**
 DonutCraft is an expansive and immersive mod pack for Minecraft 1.20 that brings together a plethora of mods, including GregTech Community Edition, Create Mod, and many more. This mod pack isn't just about crafting and building; it's a progression-driven adventure where all quests are intricately interconnected, creating a cohesive and captivating experience.
 
