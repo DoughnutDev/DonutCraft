@@ -1,9 +1,0 @@
-{
-	"x": 2,
-	"y": 72,
-	"width": 98,
-	"height": 20,
-	"langKey": "packmenu.dc.needserver",
-	"action": "OPEN_URL",
-	"data": "https://shockbyte.com/billing/aff.php?aff=7527"
-}

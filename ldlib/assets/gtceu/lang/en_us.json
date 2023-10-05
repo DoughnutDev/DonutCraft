@@ -1,0 +1,21 @@
+{
+    "block.gtceu.steam_primitive_assembler.bronze": "Small Primitive Steam Assembler",
+    "block.gtceu.steam_primitive_assembler.steel": "High Pressure Primitive Steam Assembler",
+    "block.gtceu.greenhouse_multiblock": "Greenhouse",
+    "block.gtceu.Industrial Hive": "Industrial Hive",
+    "gtceu.greenhouse_recipe_type": "Greenhouse",
+    "gtceu.industrial_hive_recipe_type": "Industrial Hive",
+    "gtceu.improved_coke_oven_recipe_type": "Improved Coke Oven",
+    "block.gtceu.Improved Coke Oven": "Improved Coke Oven",
+    "gtceu.energizer_recipe_type": "Energizer",
+    "block.gtceu.energizer.lv": "Energizer",
+    "block.gtceu.energizer.mv": "Energizer",
+    "block.gtceu.energizer.hv": "Energizer",
+    "block.gtceu.energizer.ev": "Energizer",
+    "block.gtceu.energizer.iv": "Energizer",
+    "gtceu.jei.multiblock_info": "Multiblock Preview",
+    "block.gtceu.fusion_reactor": "Fusion Reactor",
+    "gtceu.fusion_reactor": "Fusion Reactor",
+    "block.gtceu.fusion_mk0": "Fusion MK 0",
+    "gtceu.fusion_mk0": "Fusion MK 0"
+}

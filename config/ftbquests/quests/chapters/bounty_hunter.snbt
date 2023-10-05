@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_hunter"
+	group: "7F098656E6BB21BC"
+	icon: {
+		Count: 1b
+		id: "minecraft:crossbow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7A252D49B4935170"
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4ECE50D517EF3952"
+			rewards: [{
+				id: "0C94824D3C91AA7E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "606535CEB46A1BEF"
+				optional_task: true
+				title: "Kill 10 Zombies"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4ECE50D517EF3952"]
+			dependency_requirement: "one_completed"
+			id: "0078B754786B2E52"
+			progression_mode: "linear"
+			rewards: [{
+				id: "54C490C5F38C4ACA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "0005DFF0015B9137"
+				optional_task: true
+				title: "Kill 25 Zombies"
+				type: "kill"
+				value: 25L
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+	]
+	title: "Bounty Hunter"
+}

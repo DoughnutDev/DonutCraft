@@ -8,6 +8,7 @@ B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
 B:enablehotkeys = 'true';
 B:playmenumusic = 'true';
+S:variables_to_reset_on_launch = '';
 B:showdebugwarnings = 'true';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
 I:defaultguiscale = '-1';
@@ -15,33 +16,13 @@ I:defaultguiscale = '-1';
 
 ##[customization]
 
-B:advancedmode = 'false';
-B:showcustomizationbuttons = 'false';
-
-
-##[mainmenu]
-
-B:hidebranding = 'true';
-B:hidelogo = 'true';
-B:hiderealmsnotifications = 'true';
-B:hideforgenotifications = 'true';
-
-
-##[mainmenu_splash]
-
-S:splashcolor = '#ffff00';
-I:splashrotation = '-20';
-I:splashy = '0';
-I:splashx = '0';
-B:hidesplashtext = 'true';
-S:splashtextfile = '';
-S:splashorientation = 'original';
+B:advancedmode = 'true';
+B:showcustomizationbuttons = 'true';
 
 
 ##[loading]
 
 B:allowgameintroskip = 'true';
-S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
 B:preloadanimations = 'false';
@@ -51,9 +32,9 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'DonutCraft';
+S:customwindowtitle = 'DonutCraft - 0.0.1';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]
@@ -83,4 +64,10 @@ B:showvanillamovewarning = 'true';
 
 ##[ui]
 
+B:show_unicode_warning = 'true';
 F:uiscale = '1.5';
+
+
+##[compatibility]
+
+B:allow_level_registry_interactions = 'true';

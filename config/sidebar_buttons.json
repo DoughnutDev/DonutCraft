@@ -2,6 +2,9 @@
 	"ftbteams": {
 		"my_team": true
 	},
+	"ftbquests": {
+		"quests": true
+	},
 	"ftblibrary": {
 		"toggle.gamemode": true,
 		"toggle.rain": true,
@@ -9,6 +12,7 @@
 		"toggle.night": true
 	},
 	"ftbchunks": {
-		"chunks": true
+		"chunks": true,
+		"claim_chunks": true
 	}
 }

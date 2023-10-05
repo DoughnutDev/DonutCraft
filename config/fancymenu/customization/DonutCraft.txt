@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = images/background.png
+  path = fancymenu_data/background.png
   action = texturizebackground
 }
 
@@ -25,124 +25,116 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = top-left
-  x = 532
+  x = 422
   action = movebutton
-  y = 233
+  y = 205
 }
 
 customization {
-  identifier = %id=376322%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=400382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = top-left
-  x = 327
+  x = 221
   action = movebutton
-  y = 233
+  y = 205
 }
 
 customization {
-  identifier = %id=502382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = top-left
-  x = 429
+  x = 321
   action = movebutton
-  y = 233
+  y = 205
 }
 
 customization {
-  identifier = %id=376382%
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = top-left
-  x = 302
+  x = 198
   action = movebutton
-  y = 233
+  y = 205
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = top-left
-  x = 327
+  x = 221
   action = movebutton
-  y = 211
+  y = 182
 }
 
 customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=376346%
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
 
 customization {
   orientation = top-left
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  x = 429
-  width = 98
-  actionid = 1df28449-3bd2-4ec9-91a7-8aefd3659cc01652403309159
-  action = addbutton
-  y = 211
-  label = Report Issue
-  value = https://github.com/DoughnutDev/DonutCraft/issues/new
-  height = 20
-}
-
-customization {
-  showname = true
-  orientation = top-left
-  crouching = false
-  x = 587
-  slim = false
-  actionid = bef216c0-7171-473f-95ad-f50f875098e71652403838714
-  action = addentity
-  y = 226
-  scale = 30
-  playername = %playername%
-  parrot = false
-}
-
-customization {
-  showname = true
-  orientation = top-left
-  crouching = false
-  x = 266
-  slim = false
-  actionid = 5c7a091d-fb22-4e75-8a63-0bab6293e3e61652403900785
-  action = addentity
-  y = 226
-  scale = 30
-  playername = DoughnutDev
-  parrot = false
-}
-
-customization {
-  path = images/donutcrafttitle.png
-  orientation = top-left
-  x = 297
-  width = 260
-  action = addtexture
-  actionid = 60151611-51a6-45c0-8a5c-6e6d75b389af1652403979915
-  y = 8
-  height = 140
+  hidden = false
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 4b627895-447c-40df-afda-a639cc55f9851696082283246
+  y = 4
+  height = 19
 }
 
 customization {
   orientation = top-left
-  shadow = false
+  hidden = false
   x = 2
-  action = addtext
-  actionid = e255fe3b-5b7c-44c2-83be-07843c07db371652405043468
-  y = 446
-  scale = 1.0
-  alignment = left
-  value = DonutCraft created by DoughnutDev
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 0cf561f0-f614-4eec-aba3-c4ef486ee34d1696082283248
+  y = 301
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 120a6144-31af-475b-9552-22a235945d791696082283248
+  y = 323
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 743e4de5-581d-42b3-9251-f64ac78135b41696082283248
+  y = 185
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b41ce4ff-d84e-4061-a34a-15e43a36fa481696082283248
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = fbdef518-24ff-42e6-b144-7dd24d74f83e1696082283248
+  y = 0
+  height = 30
 }
 
 customization {
@@ -155,5 +147,16 @@ customization {
   scale = 1.0
   alignment = left
   value = Minecraft %mcversion%
+}
+
+customization {
+  path = fancymenu_data/logo.png
+  orientation = top-left
+  x = 202
+  width = 236
+  action = addtexture
+  actionid = a3587090-5a92-4dc9-b856-f29405a7e3be1696082731256
+  y = 37
+  height = 42
 }
 

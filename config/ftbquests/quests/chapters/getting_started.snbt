@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "08272F07F1396EE1"
+	icon: "minecraft:dirt_path"
+	id: "5A0481C4EEFBAB5B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"DonutCraft is GregTech based pack. You will need to use JEI for almost everything. You will also use this quest book to help guide you through the pack."
+				""
+				""
+				"Before you dive into building your factory you might want to collect some wood!"
+			]
+			icon: "minecraft:oak_log"
+			id: "41CF79C22731365C"
+			rewards: [
+				{
+					count: 32
+					id: "4B67C340C6A3EDD3"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "6AF30F337CB5B323"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "6833120DDD29FBE3"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 16L
+				id: "4789C94A406F336D"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Welcome to DonutCraft!"
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"41CF79C22731365C"
+				"55FF8014D750D723"
+			]
+			description: ["Now that you got that wood. You should make yourself a crafting table. Probably will come in useful."]
+			id: "770B4348D3D3DBB3"
+			rewards: [{
+				id: "207913CD6040A8EE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6DFE71228E73822D"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			id: "55FF8014D750D723"
+			rewards: [
+				{
+					id: "7388891170704A55"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "357E822C94962B4D"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				count: 32L
+				id: "2E2447CD283C539F"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			title: "Mhmm Gravel"
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["770B4348D3D3DBB3"]
+			id: "2A898567A61F9E85"
+			rewards: [
+				{
+					count: 8
+					id: "751849C8631C8B34"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "4ED183F7D491DC0A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "2184BF067A92A5BE"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64C0E697A8D774DC"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "016D446D02EE8329"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AFE380142DDD180"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Make Flint Tools"
+			x: -8.0d
+			y: -0.5d
+		}
+	]
+	title: "Getting Started"
+}
