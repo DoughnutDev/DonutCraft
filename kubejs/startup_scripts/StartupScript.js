@@ -2,13 +2,6 @@
 
 console.info('Hello, World! (You will only see this line once in console, during startup)')
 
-GTCEuStartupEvents.registry('gtceu:material', event => {
-	event.create('dev_jizz')
-        .fluid()
-		.color(0x500bbf)
-		.fluidTemp(69420)
-
-})
 
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
