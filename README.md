@@ -23,4 +23,4 @@ DonutCraft is an expansive and immersive mod pack for Minecraft 1.20 that brings
 
 Get ready to embark on a unique Minecraft journey that combines industrial complexity with creative ingenuity, all wrapped up in an immersive storyline. In DonutCraft, quests and mods interconnect to provide a progression-driven pack that will test your skills and engage your imagination. Are you ready to craft your destiny in DonutCraft?
 
-* *Generated with ChatGPT 3.5* *
+ *Generated with ChatGPT 3.5* 
