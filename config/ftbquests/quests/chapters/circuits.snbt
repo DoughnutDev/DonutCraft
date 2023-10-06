@@ -562,7 +562,7 @@
 			id: "7C7B1FAA523F19F2"
 			tasks: [{
 				id: "0E28075B4E87FE2E"
-				item: "alltheores:bronze_ingot"
+				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
 			x: -4.0d
@@ -573,7 +573,7 @@
 			id: "1EB73508673AD0EC"
 			tasks: [{
 				id: "740E35A5781E43A7"
-				item: "alltheores:steel_ingot"
+				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
 			x: -3.0d
@@ -823,7 +823,7 @@
 			id: "31F55263F748A65F"
 			tasks: [{
 				id: "282B4264413EFB2D"
-				item: "alltheores:platinum_ingot"
+				item: "gtceu:platinum_ingot"
 				type: "item"
 			}]
 			x: 0.0d
@@ -883,7 +883,7 @@
 			id: "41B376AFE2564807"
 			tasks: [{
 				id: "2D9B8AF6C76D9CEA"
-				item: "chemlib:tungsten_ingot"
+				item: "gtceu:tungsten_ingot"
 				type: "item"
 			}]
 			x: 1.0d
