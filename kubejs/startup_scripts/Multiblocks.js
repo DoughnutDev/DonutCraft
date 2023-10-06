@@ -6,7 +6,7 @@ console.info('Hello, World! (You will only see this line once in console, during
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('greenhouse')
-        .category('drack')
+        .category('DonutCraft')
         .setEUIO('in')
         .setMaxIOSize(3, 4, 1, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)

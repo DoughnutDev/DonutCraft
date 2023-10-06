@@ -1,41 +1,5 @@
 ServerEvents.recipes(event => {
 
-
-//Replacing Create Andesite with GregTech Andesite
-    event.replaceInput(
-        { input: 'create:andesite_alloy' }, // Arg 1: the filter
-        'create:andesite_alloy',            // Arg 2: the item to replace
-        'gtceu:andesite_alloy_ingot'         // Arg 3: the item to replace it with
-        // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
-      )
-
-//Removes Andesite
-    event.remove({ input: 'create:andesite_alloy' })
-    
-
-
-//Adding Recipe for Andesite Alloy Dust
-    event.shaped(
-        Item.of('gtceu:andesite_alloy_dust', 4),
-        [
-            'BA ',
-            'AB ',
-            '  C'
-        ],
-        {
-            A: 'minecraft:iron_nugget',
-            B: 'minecraft:andesite',
-            C: '#forge:tools/mortars'
-        }
-    )
-    
-//Add Mixer Recipe for Andesite Alloy Dust
-    event.recipes.gtceu.mixer('andesite_alloy_dust_mixer')
-    .itemInputs('2x minecraft:iron_nugget', '2x minecraft:andesite')
-    .itemOutputs('6x gtceu:andesite_alloy_dust')
-    .duration(24)
-    .EUt(16)
-
 ////// Machine Recipe //////
 
 event.shaped(
