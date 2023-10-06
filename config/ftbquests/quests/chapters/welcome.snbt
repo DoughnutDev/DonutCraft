@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
-	icon: "allthetweaks:atm_star"
+	icon: "create:creative_blaze_cake"
 	id: "5B00676D79306EA2"
 	images: [
 		{
@@ -14,7 +14,7 @@
 			hover: [ ]
 			image: "packmenu:textures/gui/logo.png"
 			rotation: 0.0d
-			width: 15.0d
+			width: 28.409090909090907d
 			x: 0.0d
 			y: -4.5d
 		}
