@@ -17,25 +17,11 @@
 			]
 			icon: "minecraft:oak_log"
 			id: "41CF79C22731365C"
-			rewards: [
-				{
-					count: 32
-					id: "4B67C340C6A3EDD3"
-					item: "minecraft:torch"
-					type: "item"
-				}
-				{
-					id: "6AF30F337CB5B323"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 16
-					id: "6833120DDD29FBE3"
-					item: "minecraft:baked_potato"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6AF30F337CB5B323"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "pentagon"
 			tasks: [{
 				count: 16L
@@ -96,25 +82,17 @@
 		{
 			dependencies: ["770B4348D3D3DBB3"]
 			id: "2A898567A61F9E85"
-			rewards: [
-				{
-					count: 8
-					id: "751849C8631C8B34"
-					item: "minecraft:flint"
-					type: "item"
-				}
-				{
-					id: "4ED183F7D491DC0A"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "4ED183F7D491DC0A"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
-					id: "2184BF067A92A5BE"
+					id: "32894491B6D8DE56"
 					item: {
 						Count: 1b
-						id: "minecraft:wooden_sword"
+						id: "minecraft:stone_sword"
 						tag: {
 							Damage: 0
 						}
@@ -122,10 +100,10 @@
 					type: "item"
 				}
 				{
-					id: "64C0E697A8D774DC"
+					id: "75A8409C52397B43"
 					item: {
 						Count: 1b
-						id: "minecraft:wooden_pickaxe"
+						id: "minecraft:stone_pickaxe"
 						tag: {
 							Damage: 0
 						}
@@ -133,10 +111,10 @@
 					type: "item"
 				}
 				{
-					id: "016D446D02EE8329"
+					id: "352D544DDFC4DC9F"
 					item: {
 						Count: 1b
-						id: "minecraft:wooden_shovel"
+						id: "minecraft:stone_axe"
 						tag: {
 							Damage: 0
 						}
@@ -144,10 +122,10 @@
 					type: "item"
 				}
 				{
-					id: "2AFE380142DDD180"
+					id: "3B268ADC0EE89EF7"
 					item: {
 						Count: 1b
-						id: "minecraft:wooden_axe"
+						id: "minecraft:stone_shovel"
 						tag: {
 							Damage: 0
 						}
@@ -155,9 +133,260 @@
 					type: "item"
 				}
 			]
-			title: "Make Flint Tools"
+			title: "Make Basic Tools"
 			x: -8.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["59EDD34F795BE680"]
+			id: "0F71A2688E779ADC"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "5768369C01C0097C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 64L
+				id: "764AA8A27CC1B946"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A898567A61F9E85"]
+			description: ["Since we are stuck here on this unknown plant, we should start getting some basic infrastructure up and going. Since we do not have power, we need to figure a way to make the necessary materials to atleast get power running on the shuttle. Maybe theres some basic tools in the tool box in the back..... "]
+			icon: "create:wrench"
+			id: "59EDD34F795BE680"
+			rewards: [
+				{
+					id: "4F7FF150E0A056EB"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "61FE02F206A4E722"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "499E0890943EED9C"
+				title: "Checking the Back.... Found it!"
+				type: "checkmark"
+			}]
+			title: "Getting Started: Create"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59EDD34F795BE680"]
+			id: "4964CEBC116C8637"
+			tasks: [{
+				count: 64L
+				id: "73C27528EDAEF4AC"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0F71A2688E779ADC"
+				"4964CEBC116C8637"
+			]
+			id: "55A3BD427710BD14"
+			tasks: [{
+				id: "327C20E0493F2A81"
+				item: {
+					Count: 1b
+					id: "gtceu:flint_mortar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55A3BD427710BD14"]
+			id: "675C75A86FCEC3D6"
+			tasks: [{
+				count: 32L
+				id: "044914041DB809D3"
+				item: "gtceu:andesite_alloy_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["675C75A86FCEC3D6"]
+			id: "17D325E4D7E7628C"
+			tasks: [{
+				count: 32L
+				id: "72C926420D9FA8CC"
+				item: "gtceu:andesite_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17D325E4D7E7628C"]
+			id: "64DF4CE395900EA2"
+			tasks: [
+				{
+					id: "20DE2EAB54205154"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "65B201A653821929"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64DF4CE395900EA2"]
+			id: "3745893DEC1392D9"
+			tasks: [
+				{
+					id: "2887E864DFC0FE98"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "566B3677B06D1113"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3745893DEC1392D9"]
+			id: "061F9E984707D814"
+			tasks: [{
+				id: "29008D68BE9165BC"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["061F9E984707D814"]
+			id: "7D734662B57E4AAB"
+			tasks: [{
+				id: "1B42AA30232178C5"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["061F9E984707D814"]
+			id: "53F051ED30AB6ED0"
+			tasks: [{
+				id: "1AF9F131A210E64E"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["061F9E984707D814"]
+			id: "410DA84A111453AA"
+			tasks: [{
+				id: "35C4E3E161A22F45"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["410DA84A111453AA"]
+			id: "679963A1EFA533A7"
+			tasks: [{
+				id: "29EA474F12ED75DC"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53F051ED30AB6ED0"]
+			id: "5EF18C3094D1C9E4"
+			tasks: [
+				{
+					count: 3L
+					id: "2E5BB965F9BB67D3"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					id: "3B7115B2E3902AC0"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["679963A1EFA533A7"]
+			id: "42F704538EB0E550"
+			tasks: [{
+				id: "44B2B75318CD21CB"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"679963A1EFA533A7"
+				"42F704538EB0E550"
+			]
+			id: "60E9327A7E91C55D"
+			tasks: [{
+				id: "395124B82B72F002"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5EF18C3094D1C9E4"
+				"60E9327A7E91C55D"
+			]
+			id: "30860A952A2ADCE0"
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "47FAC6E86F45738E"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
 		}
 	]
 	title: "Getting Started"
