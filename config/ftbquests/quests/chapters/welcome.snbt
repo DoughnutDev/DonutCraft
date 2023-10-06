@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
-	icon: "create:creative_blaze_cake"
+	icon: "allthetweaks:atm_star"
 	id: "5B00676D79306EA2"
 	images: [
 		{
@@ -14,7 +14,7 @@
 			hover: [ ]
 			image: "packmenu:textures/gui/logo.png"
 			rotation: 0.0d
-			width: 28.409090909090907d
+			width: 15.0d
 			x: 0.0d
 			y: -4.5d
 		}
@@ -86,11 +86,13 @@
 	quests: [
 		{
 			description: [
-				"ATM9 is a kitchensink pack that allows you to explore the world of modded Minecraft in your own way!"
+				"&bdonutcraft&r is a feature-rich Minecraft 1.20 mod pack that combines mods like GregTech Community Edition and Create Mod for an immersive and interconnected adventure. With quests influencing each other, the pack offers a &3unique progression-driven experience&r. "
 				""
-				"&lATM9 is currently in the beta stages of modpack development&r. Mods will be added or removed as they get updated."
+				"Dive into industrialization with GregTech, unleash creativity with the Create Mod, and explore additional carefully chosen mods. The customized world, resource scarcity, and multiplayer mode encourage collaboration. "
 				""
-				"If you have any questions or issues, feel free to join the ATM discord!"
+				"Regular updates keep the experience fresh, making donutcraft a blend of industrial complexity and creative ingenuity for Minecraft enthusiasts. Ready to craft your destiny in &bdonutcraft?&r"
+				""
+				"&4Powered by Chat GPT&r"
 			]
 			icon: "allthetweaks:atm_star"
 			id: "3BC0A50886A3222B"
@@ -100,13 +102,13 @@
 				xp: 10
 			}]
 			shape: "diamond"
-			size: 3.0d
+			size: 4.0d
 			tasks: [{
 				id: "5A1784C5676CDC62"
 				title: "Welcome to All The Mods 9!"
 				type: "checkmark"
 			}]
-			title: "&dWelcome to All The Mods 9!"
+			title: "&dWelcome to donutcraft!"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -116,7 +118,7 @@
 				""
 				"The individual questlines outside of the Main questline are meant to serve as mod guides. If you want to follow the progression, make sure to check out the Main Questline!"
 				""
-				"Most of the quests in the pack are also made by &2AlfredGG&r. Quests are hard work, so if you'd like to support him, you can click on his player image below!"
+				"All of the quests in the pack are made by &dDonutDev&r and &dZellTheBrave&r. Quests are hard work, so if you'd like to support us you can click on our player images below!"
 			]
 			icon: "ftbquests:book"
 			id: "3708A4780ACEB34E"
@@ -139,7 +141,7 @@
 		}
 		{
 			description: [
-				"There are plenty of helpful commands within ATM. Here are a few:"
+				"There are plenty of helpful commands within donutcraft. Here are a few:"
 				""
 				"&e/sethome&r (name of home) | Let's you set a home that you can teleport back to using /home (name). Example: /sethome farm - then teleport with /home farm"
 				""
