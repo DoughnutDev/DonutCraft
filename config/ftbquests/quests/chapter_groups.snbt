@@ -1,15 +1,6 @@
-<<<<<<< Updated upstream
 {
 	chapter_groups: [
 		{ id: "08272F07F1396EE1", title: "Chapter: 1" }
 		{ id: "7F098656E6BB21BC", title: "Misc" }
 	]
 }
-=======
-{
-	chapter_groups: [
-		{ id: "08272F07F1396EE1", title: "Chapter: 1" }
-		{ id: "7F098656E6BB21BC", title: "Misc" }
-	]
-}
->>>>>>> Stashed changes

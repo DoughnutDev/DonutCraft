@@ -484,39 +484,6 @@
 			y: 4.5d
 		}
 		{
-			id: "56DA46DC82F6665D"
-			rewards: [
-				{
-					count: 10
-					id: "4DFA285786102C2B"
-					item: "ars_nouveau:wilden_spike"
-					type: "item"
-				}
-				{
-					id: "20AEE2C8F4472343"
-					type: "xp"
-					xp: 1000
-				}
-				{
-					exclude_from_claim_all: true
-					id: "380E221DF1F736A8"
-					type: "random"
-				}
-			]
-			size: 1.5d
-			subtitle: "This isn't even my final form."
-			tasks: [{
-				entity: "ars_nouveau:wilden_boss"
-				icon: "ars_nouveau:wilden_tribute"
-				id: "452B65E139D9E12D"
-				title: "Kill the Wilden Chimera"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.550000000000001d
-			y: 6.0d
-		}
-		{
 			description: [
 				"\"While making a lot of the questlines for the ATM7, the Trader Villager thought it'd be funny to constantly push me around in the quest screen."
 				""
@@ -579,7 +546,7 @@
 				}
 			]
 			title: "Kill the Trader Villager and His Annoying Llamas"
-			x: 3.0500000000000003d
+			x: 3.75d
 			y: 6.0d
 		}
 		{
@@ -1260,7 +1227,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
+			x: 2.25d
 			y: 6.0d
 		}
 	]
