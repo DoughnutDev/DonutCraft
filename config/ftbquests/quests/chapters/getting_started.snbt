@@ -388,6 +388,33 @@
 			x: 7.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["64DF4CE395900EA2"]
+			description: ["Craft and place 8 Windmills to a windmill bearing by right-clicking with the Windmill in hand to place it on the bearing."]
+			id: "6B488577DA2B7EBE"
+			rewards: [{
+				id: "2B134057EC1E4143"
+				type: "xp"
+				xp: 32
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "3082C1B590772F88"
+					item: "create:white_sail"
+					optional_task: true
+					title: "Windmill Powerhouse"
+					type: "item"
+				}
+				{
+					id: "3DD57DB9021FED0B"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
 	]
 	title: "Getting Started"
 }
