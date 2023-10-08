@@ -395,7 +395,6 @@
 				xp: 10
 			}]
 			size: 2.0d
-			subtitle: "Killing All The Things"
 			tasks: [{
 				id: "3C380961550177C2"
 				title: "Bounty Board"

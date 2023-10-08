@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv__insane_voltage"
+	group: "129898DD8C2D1770"
+	icon: "gtceu:iv_electric_piston"
+	id: "68630CEFD8629A94"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "IV - Insane Voltage"
+}

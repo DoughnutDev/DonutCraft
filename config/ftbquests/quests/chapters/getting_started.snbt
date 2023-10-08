@@ -215,30 +215,19 @@
 		}
 		{
 			dependencies: ["55A3BD427710BD14"]
+			icon: "create:andesite_alloy"
 			id: "675C75A86FCEC3D6"
 			tasks: [{
 				count: 32L
 				id: "044914041DB809D3"
-				item: "gtceu:andesite_alloy_dust"
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["675C75A86FCEC3D6"]
-			id: "17D325E4D7E7628C"
-			tasks: [{
-				count: 32L
-				id: "72C926420D9FA8CC"
-				item: "gtceu:andesite_alloy_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["17D325E4D7E7628C"]
 			id: "64DF4CE395900EA2"
 			tasks: [
 				{
@@ -252,7 +241,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.5d
 			y: -0.5d
 		}
 		{
@@ -270,7 +259,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -281,7 +270,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -292,7 +281,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -303,7 +292,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -314,7 +303,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -325,7 +314,7 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -344,7 +333,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -355,7 +344,7 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -369,7 +358,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -385,7 +374,7 @@
 				item: "gtceu:bronze_dust"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -412,8 +401,109 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["4964CEBC116C8637"]
+			description: [
+				"oIron is very abundant! And not just in the form of pure Iron Ore. In reality, Iron is found in a lot of oxide forms or minerals."
+				""
+				"The dOre Generationr tab in this questbook tells you which types of materials come from which ore veins. The Ore Spawn Information and Ore Byproduct List tabs in 2JEIr list them as well."
+				""
+				"Take a look at those tabs for baIronr. Any of the Ores listed here can be smelted directly to Iron. That is dfour different veinsr that virtually have Iron Ore."
+				""
+				"Do not bother about ore processing yet. aDirect smelting will be the most efficient for a whiler, given how easy it is to obtain a lot of ores."
+				""
+				""
+				"Gather eanyr of the Iron yielding Ores to complete this quest."
+			]
+			id: "4F28FD77310FD695"
+			tasks: [{
+				count: 16L
+				id: "6A4F5F6A59CE3610"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Smelt Iron"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F28FD77310FD695"]
+			id: "41031E8C6272E542"
+			tasks: [{
+				id: "60F967AD4CBF88A8"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F28FD77310FD695"]
+			id: "258E55728CA51C7A"
+			tasks: [{
+				id: "3AC54709D69E3C75"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4F28FD77310FD695"]
+			id: "2CA43DFFE904A529"
+			tasks: [{
+				id: "2FF9D168886CCBCC"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_screwdriver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["258E55728CA51C7A"]
+			id: "6D0D6327ACD2325D"
+			tasks: [
+				{
+					id: "644A2F07BD109CF3"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "4B7A4C858A28F544"
+					item: { Count: 25b, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+				{
+					id: "69234B642E2C9CB3"
+					item: "gtceu:coke_oven_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 6.5d
 		}
 	]
 	title: "Getting Started"

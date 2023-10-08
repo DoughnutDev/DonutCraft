@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm__zero_point_module"
+	group: "129898DD8C2D1770"
+	icon: "gtceu:zpm_electric_piston"
+	id: "6AB2FA64F1D113A9"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "[\"\",{\"text\":\"ZPM\",\"color\":\"dark_red\"},{\"text\":\" -  Zero Point Module\",\"color\":\"white\"}]"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uv__ultimate_voltage"
+	group: "129898DD8C2D1770"
+	icon: "gtceu:uv_electric_piston"
+	id: "2491D2EE7E23100C"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "UV - Ultimate Voltage"
+}

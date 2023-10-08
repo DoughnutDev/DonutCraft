@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev__extreme_voltage"
+	group: "129898DD8C2D1770"
+	icon: "gtceu:ev_electric_piston"
+	id: "0E2F14965E8B199D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "EV - Extreme Voltage"
+}

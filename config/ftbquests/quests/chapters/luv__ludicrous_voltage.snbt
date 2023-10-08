@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luv__ludicrous_voltage"
+	group: "129898DD8C2D1770"
+	icon: "gtceu:luv_electric_piston"
+	id: "1861FB896AB5793A"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "[\"\",{\"text\":\"LuV\",\"color\":\"light_purple\"},{\"text\":\" -  Ludicrous Voltage\",\"color\":\"white\"}]"
+}

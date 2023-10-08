@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv__low_voltage"
+	group: "129898DD8C2D1770"
+	icon: "gtceu:lv_electric_piston"
+	id: "5367DC3980ABE3FD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "LV - Low Voltage"
+}

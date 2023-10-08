@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: "129898DD8C2D1770"
+	icon: "gtceu:bronze_brick_casing"
+	id: "25AD32A78C1A2029"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Steam Age"
+}
